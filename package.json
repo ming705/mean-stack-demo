@@ -1,0 +1,21 @@
+{
+  "name": "mean-stack-demo",
+  "version": "1.0.0",
+  "description": "First MEAN Stack demo",
+  "main": "myappserver.js",
+  "scripts": {
+    "start": "node myappserver.js"
+  },
+  "author": "Mingsheng Xie",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "connect-mongo": "^1.1.0",
+    "cookie-parser": "^1.4.1",
+    "crypto": "0.0.3",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "mongodb": "^2.1.18"
+  }
+}
